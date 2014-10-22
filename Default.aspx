@@ -9,7 +9,11 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+    <?php
+  echo "<p>Este curso es el mejor!</p>" ;
+  $miprimeravariable = "sorpresa" ;
+  echo $miprimeravariable ;
+?>
     </div>
     </form>
 </body>
